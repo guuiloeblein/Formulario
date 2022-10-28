@@ -1,0 +1,198 @@
+* {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1024px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.caixa01, .caixa02 {
+    display: flex;
+    flex: 1;
+
+    border: 0.1px solid rgba(0, 0, 0, 0.295);
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.212);
+}
+
+.bem_vindo, .cadastro {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+}
+
+.bem_vindo_img {
+    color: rgb(89, 89, 255);
+    font-size: 45px;
+    margin: 20px 0;
+
+}
+
+.info {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.info h1 {
+    font-size: 40px;
+}
+
+section .areaLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+section .login {
+    width: 80%;
+}
+
+.inputLogin {
+    display: flex;
+    width: 100%;
+
+    margin-bottom: 20px;
+    
+}
+
+.inputLogin input, .inputLogin input {
+    display: flex;
+    padding: 15px;  
+    border: none;
+    width: 100%;
+    outline: 0; 
+}
+
+.inputLogin i {
+    background-color: white;
+    color: rgb(89, 89, 255);
+    padding: 15px;
+}
+
+.lembrar { 
+    display: flex;
+    align-items: baseline;
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+section .lembrar {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section .checkbox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    padding: 5px;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+.checkbox input {
+    margin-right: 10px;
+}
+
+.inputBotao input {
+    width: 100%;
+    padding: 20px 0px;
+    border-radius: 5px;
+    background-color: rgb(89, 89, 255);
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+    letter-spacing: 4px;
+    border: none;
+}
+
+.caixa02 {
+    background: linear-gradient(120deg, rgb(150, 16, 150), rgb(235, 68, 235));
+    color: white;
+    margin-left: 5px;
+}
+
+.cadastrar_img {
+    color: white;
+    font-size: 45px;
+    margin: 20px 0;
+
+}
+
+form .loginFlex {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.loginColumn {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.loginColumn p {
+    font-size: 16px; 
+}
+
+.inputPhone {
+    width: 90%;
+    padding: 0px;
+}
+
+.loginData input {
+    padding: 10px;
+    border: 0;
+}
+
+.inputLogin select {
+    width: 90%;
+    border: none;
+    outline: 0;
+}
+
+
+
+.caixa02 .inputBotao input {
+    width: 100%;
+    padding: 20px 0px;
+    border-radius: 5px;
+    background-color: white;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+    letter-spacing: 4px;
+    border: none;
+}
+
+.inputBotao input[value="Criar conta"] { 
+    background-color: white;
+    color: rgb(150, 16, 150);
+    background-size: ;
+}
